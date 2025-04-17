@@ -20,7 +20,7 @@ ul{
     align-items: center;
     text-align: center;
     justify-content: left;
-    gap: 50px;
+    gap: 5%;
 }
 .nav-dropdown div{
     display: flex;
@@ -122,17 +122,20 @@ ul{
     gap: 10px;
     position: relative;
 }
+.description-content-2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
 .description-content-2 h2, h3{
     font-size:2rem;
 }
-
 .description-content-2 h2{
     font-weight: 900;
 }
 .description-content-1 h4, p{
     color: black;
     font-size: 80%;
-
 }
 .jumbotron-description{
     display: flex;
@@ -168,36 +171,34 @@ ul{
     flex-direction: column;
     align-items: center;
     justify-items: center;
-    width: 42%;
+    width: 100%;
+    margin-right: auto;
     gap: 50px;
-}
-.paragraf-desc-journey{
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    gap: 50px;
-}
-.year-desc-journey div{
-    display: flex;
-    align-items: center;
-    height: 80px;
-}
-.year-desc-journey{
     position: relative;
 }
-.content-journey{
+.journey-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100px;
+    width: 80%;
+}
+.journey-item h3{
+    margin-right: 10%;
+    width: 20%;
+}
+.desc-journey{
     display:flex;
     flex-direction: column;
     justify-content: center;
     height: fit-content;
-    margin-right: 10px;
-    
+    width: 90%;
 }
-.content-journey h4{
-    font-size: 1rem;
+.desc-journey h4 {
+    font-size: 1.2rem;
 }
-.content-journey p{
-    font-size: 1rem;
+.desc-journey p{
+    font-size: 0.6rem;
 }
 .meet-our-team-section{
     margin-top:10vh;
