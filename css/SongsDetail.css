@@ -72,3 +72,56 @@ ul{
     height: 40px;
     margin-right: 10px;
 }
+.song-detail{
+    background-color: #F9F9E0;
+    padding-bottom: 50px;
+}
+.song-detail-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+.song-info{
+    display: flex;
+    flex-direction:row;
+    gap: 10px;
+    justify-content: center;
+    align-items: flex-start;
+}
+.song-info img{
+    width: 20%;
+    height: 20%;
+    object-fit: cover;
+    margin-left: 5%;
+}
+.song-detail-header button{
+    margin-right: auto;
+    margin-left: 10px;
+}
+.song-detail-header h1{
+    margin-right:auto;
+}
+.song-name-artist, .song-description{
+    gap: 10%;
+    padding: 10px;
+}
+.song-name-artist h2, .song-description h2{
+    font-size: 1rem;
+}
+.song-metadata p{
+    font-size: 0.8rem;
+}
+.song-name-artist{
+    display: flex;
+    flex-direction: row;
+}
+.song-name-artist h2:first-child{
+    width: 20%;
+}
+.song-description{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
