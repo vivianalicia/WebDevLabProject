@@ -141,6 +141,7 @@ ul{
     align-items: center;
     justify-content: center;
     padding: 50px;
+    margin-bottom: 50px;
 }
 .verse-1, .verse-2, .chorus, .post-chorus, .bridge, .interlude, .outro{
     white-space: pre-line;
@@ -152,6 +153,42 @@ ul{
     gap: 10px;
     width: 100%;
     align-items: left;
+}
+.media-player{
+    background-color:#F9F9E0;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+}
+.media-player-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+#play{
+    width: 40px;
+}
+.media-player img{
+    width: 6%;
+    height: fit-content;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.media-player .song-name-value{
+    font-weight: bolder;
+}
+.media-player .song-name-value, .media-player .song-artist-value{
+    font-size: small;
+}
+.song-title-artist{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+input{
+    width: 100%;
 }
 @media screen and (max-width: 768px) {
     *{
@@ -165,6 +202,9 @@ ul{
     .song-metadata{
         justify-content: space-between;
         align-items: stretch;
+    }
+    .media-player-content{
+        font-size: smaller;
     }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
