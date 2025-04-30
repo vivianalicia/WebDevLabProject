@@ -11,8 +11,9 @@ nav{
     font-size: 18px;
     
 }
-ul{
+ul li{
     list-style-type: none;
+    width: fit-content;
 }
 .nav-list, .nav-dropdown{
     display: flex;

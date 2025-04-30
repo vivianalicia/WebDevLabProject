@@ -10,8 +10,9 @@ nav{
     color: #020626;
     font-size: 1.2rem;
 }
-ul{
+ul li{
     list-style-type: none;
+    width: fit-content;
 }
 .nav-list, .nav-dropdown{
     display: flex;
