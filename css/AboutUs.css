@@ -1,0 +1,311 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    position: relative;
+    height: fit-content;
+    background-color: #F9F9E0;
+    color: #020626;
+    font-size: 1.2rem;
+}
+ul{
+    list-style-type: none;
+}
+.nav-list, .nav-dropdown{
+    display: flex;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    justify-content: left;
+    gap: 5%;
+}
+.nav-dropdown div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nav-dropdown .dropdown-item{
+    display: none;
+    position:absolute;
+    background-color: #e2e2c8;
+    top:100%;
+    width: 100%;
+    height: fit-content;
+    padding: 5px;
+    z-index: 3;
+    border-radius: 2px;
+}
+.nav-dropdown:hover .dropdown-item{
+    display: flex;
+}
+.dropdown-item li{
+   margin: 10px 0 10px 10px;
+}
+.nav-dropdown:hover, .nav-item:hover{
+    text-decoration: underline;
+    font-weight:bold;
+}
+
+.nav-list a{
+    text-decoration: none;
+    color: black;
+}
+.logo-icon, .profile-icon, .dropdown-icon{
+    width: auto;
+    position: relative;
+}
+.dropdown-icon{
+    height: 20px;
+    margin-left: 5px;
+}
+.logo-icon{
+    margin-right: 40px;
+    width: auto;
+    height: 50px;
+    margin-left: 10px;
+}
+.profile-icon{
+    margin-left: auto;
+    width: auto;
+    height: 40px;
+    margin-right: 10px;
+}
+.jumbotron{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    height: fit-content;
+}
+.jumbotron img{
+    object-fit: cover;
+    width: 100%;
+    height: 91.5vh;
+}
+.jumbotron-content{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 2%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+}
+.jumbotron-header h2{
+    font-weight: 800;
+    font-size: 2rem;
+}
+.jumbotron-header h3{
+    font-size: 2rem;
+    font-weight: 100;
+}
+.jumbotron-header{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 10px 10px 20px;
+}
+.jumbotron-description{
+    margin: 20px 10px 10px 20px;
+}
+.description-content-1{
+    background-color: white;
+    width: 50%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-left: 10px;
+    gap: 10px;
+    position: relative;
+}
+.description-content-2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+.description-content-2 h2, h3{
+    font-size:2rem;
+}
+.description-content-2 h2{
+    font-weight: 900;
+}
+.description-content-1 h4, p{
+    color: black;
+    font-size: 80%;
+}
+.jumbotron-description{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 20%;
+}
+.journey-section{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.header-journey h2{
+    font-size: 2rem;
+    font-weight: 800;
+    align-self: center;
+}
+.header-journey{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top:2%;
+}
+
+.description-journey-content{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+}
+.year-desc-journey{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    margin-right: auto;
+    gap: 50px;
+    position: relative;
+}
+.journey-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100px;
+    width: 80%;
+}
+.journey-item h3{
+    margin-right: 10%;
+    width: 20%;
+}
+.desc-journey{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height: fit-content;
+    width: 90%;
+}
+.desc-journey h4 {
+    font-size: 1.2rem;
+}
+.desc-journey p{
+    font-size: 0.6rem;
+}
+.meet-our-team-section{
+    margin-top:10vh;
+}
+.header-team{
+    margin: 5px;
+    text-align: center;
+}
+.header-team h2{
+    font-size: 2rem;
+    font-weight: 800;
+}
+.team-content{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    justify-content: center;
+}
+.team-card img{
+    width: 80%;
+    height: 70%;
+    object-fit: cover;
+}
+.team-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    padding: 30px;
+    position: relative;
+    gap: 30px;
+    border-radius: 2%;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);
+}
+.team-card h4{
+    font-size: 1.2rem;
+    text-align: center;
+}
+.team-card h5{
+    font-size: 0.6rem;
+    text-align: center;
+}
+.tag-position{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #020626;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+}
+.detail-team{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 50px;
+}
+
+@media screen and (max-width: 1024px) {
+    .jumbotron-description{
+        gap: 1vh;
+    }
+    .jumbotron-content{
+        gap: 5vh;
+    }
+    .jumbotron img{
+        width: 100%;
+        height: 100vh;
+    }
+    .description-journey-content{
+        flex-direction: row;
+        width: 100%;
+        font-size: 50%;
+    }
+    .nav-list{
+       font-size: small;
+       text-align: center;
+    }
+    .logo-icon, .profile-icon, .dropdown-icon{
+        width: auto;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .jumbotron-content{
+        gap: 5vh;
+    }
+    .jumbotron img{
+        width: 100%;
+        height: 100vh;
+    }
+
+    .description-journey-content{
+        flex-direction: row;
+        width: 100%;
+        font-size: 50%;
+    }
+    .nav-list{
+       font-size: small;
+       text-align: center;
+    }
+    .logo-icon, .profile-icon, .dropdown-icon{
+        width: auto;
+        position: relative;
+    }
+}
