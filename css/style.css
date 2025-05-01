@@ -3,6 +3,10 @@
     padding: 0px;
     font-family: 'Poppins', sans-serif;
 }
+img{
+    flex-shrink: 0; 
+    object-fit: cover;
+}
 nav{
     background-color: #F9F9E0;
     color: #020626;
@@ -392,11 +396,15 @@ ul li{
     
     /*Media QUery*/
     @media all and (max-width: 768px) {
+*{
+box-sizing: border-box;
+}
         
         /* Slider adjustments */
         .slider-container {
             height: 40vh;
             padding: 0;
+            box-sizing: border-box;
         }
         
         .slider-images {
@@ -438,21 +446,22 @@ ul li{
         .container-utama{
         height: fit-content;
         background-color: #020626;
-        padding: 10px;
+        width: auto;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
+        gap: 25px;
         }
         
         .best-seller{
         height: fit-content;
         border-radius: 5px;
+        width: auto;
         background-color: #F9F9E0;
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 10px;
         }
         
         .best-seller p{
@@ -482,6 +491,8 @@ ul li{
         .sold-song img{
         object-fit: cover;
         border-radius: 5px;
+        width: 250px;
+        height: 125px;
         }
         
         .sold-song p{
@@ -498,6 +509,7 @@ ul li{
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
+        gap: 25px;
         }
         
         .rs-song{
@@ -540,7 +552,8 @@ ul li{
         }
         
         .recently-list img{
-        height: 90%;
+        height: 120px;
+        width: 100%;
         border-radius: 5px;
         object-fit: cover;
         }
