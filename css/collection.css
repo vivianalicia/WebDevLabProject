@@ -182,7 +182,8 @@ margin-right: 10px;
     }
     .songs-sections{
         display: flex;
-        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
         align-items: center;
         margin-bottom: 0px;
     } 
@@ -194,8 +195,9 @@ margin-right: 10px;
     .other-songs-section{
         text-align: center;
         display: flex;
-        flex-direction: column;
+        justify-content: center;
         align-items: center;
+        flex-wrap: wrap;
         
     }
 
