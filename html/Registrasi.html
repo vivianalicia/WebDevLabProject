@@ -11,7 +11,7 @@
     
     <nav id="reg-nav-bar">
         <ul class="nav-list">
-            <img class="logo-icon" src="../assets/Navigation/Logo.png alt="Logo G'roovy Music">
+            <img class="logo-icon" src="../assets/Navigation/Logo.png"Logo G'roovy Music">
             <button class="register-button"> Sign In </button>
             <button class="register-button">Register</button>
             
@@ -27,31 +27,31 @@
             
             <div class="register-content">
                 <label for="">Name</label><br>
-                <input type="text" class="register-field"><br><br>
+                <input type="text" name="username" class="register-field" id="username"><br><br>
                 
                 <label for="">Email</label><br>
-                <input type="email" class="register-field" name="" id=""  ><br><br>
+                <input type="email" name="email" class="register-field" name="email" id="email"  ><br><br>
 
                 <label for="">Password</label><br>
-                <input type="password" class="register-field" name="" id=""><br><br>
+                <input type="password" name="password" class="register-field" name="password" id="password"><br><br>
 
                 <label for="">Age</label><br>
-                <input type="text" name="" id="register-field-age"><br><br>
+                <input type="text" name="age" class="register-field-age" id="age"><br><br>
 
                 <label for="">Gender</label><br>
 
                 <div class="register-radio">
                     <div class="register-radio-content" >
-                        <input type="radio" name="gender" id="">
+                        <input type="radio" name="gender" id="male">
                         <label for="gender">Male</label>
                     </div>
                     <div class="register-radio-content">
-                        <input type="radio" name="gender" id="">
+                        <input type="radio" name="gender" id="female">
                         <label for="gender">Female</label>
                     </div>
                 </div >
 
-                <button> Register</button>
+                <button type="button" onclick="validateForm()"> Register</button>
 
 
             </div>
@@ -64,5 +64,6 @@
 
     </div>
 
+    <script src="../js/register.js"></script>
 </body>
 </html>

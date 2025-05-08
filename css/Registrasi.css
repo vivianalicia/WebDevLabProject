@@ -83,10 +83,11 @@ nav{
     border-color: #020626;
 }
 
-#register-field-age{
+.register-field-age{
     width: 50px;
     height: 35px;
     border-radius: 5px;
+    border-color: #020626;
 }
 
 .register-radio{
