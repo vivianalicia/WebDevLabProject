@@ -20,6 +20,13 @@ function validateForm(){
         alert("Form successfully submitted!")
     }
 
+    let userData = {
+        email: email.value,
+        password: password.value
+    }
+
+    localStorage.setItem("registeredUser",JSON.stringify(userData))
+
     let registArray = [username.value, email.value, password.value, age.value, gender]
 
     console.log(registArray)
