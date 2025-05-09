@@ -5,8 +5,8 @@ function validateForm(){
     let age = document.getElementById("age")
     let male = document.getElementById("male")
     let female = document.getElementById("female")
-
-    if(username.value = "" || username.value.length < 3){
+    let gender = male.checked ? "Male" : (female.checked ? "Female" : "")
+    if(username.value == "" || username.value.length < 3){
         alert ("Username must be filled and more than 3 characters!")
     }else if(!email.value.endsWith("@gmail.com") && !email.value.endsWith("@yahoo.com")){
         alert ("Email must ends with @gmail.com or @yahoo.com!")
@@ -14,11 +14,15 @@ function validateForm(){
         alert ("Password must be alphanumeric!")
     }else if(!ageIsNumeric(age.value)){
         alert("Your age must be number!")
-    }else if (!female.checked && !male.checked){
-        alert("Please select a gender!")
+    }else if (!male.checked && !female.checked) {
+        alert("Please select a gender!");
     }else{
         alert("Form successfully submitted!")
     }
+
+    let registArray = [username.value, email.value, password.value, age.value, gender]
+
+    console.log(registArray)
 
     document.querySelector("registerForm")
 

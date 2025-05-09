@@ -38,6 +38,11 @@ nav{
     border-style: none;
 }
 
+.nav-list a{
+    color: #F9F9E0;
+    text-decoration: none;
+}
+
 .register-grid{
     display: grid;
     grid-template-areas: 
