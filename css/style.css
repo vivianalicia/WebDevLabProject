@@ -167,6 +167,11 @@ ul li{
         animation: slideInFromLeft 1s ease-out forwards;
     }
     
+    .container{
+    display: none;
+    }
+
+
     .reccomendation{
     position: absolute;
     font-size: 32px;
@@ -341,6 +346,7 @@ ul li{
     align-items: center;
     justify-content: center;
     background-color: #020626;
+    gap: 30px;
     }
     
     
@@ -360,14 +366,12 @@ ul li{
     flex-direction: column;
     transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
     align-items: center;
+    gap: 3px;
     }
-    .release-song-img{
-        width: 200px;
-        height: 200px;
-    }
+  
     .release-song img{
-    width: 100%;
-    height: 100%;
+    width: 250px;
+    height: 250px;
     border-radius: 5px;
     object-fit: cover;
     
@@ -394,47 +398,105 @@ ul li{
     
     
     
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
     /*Media QUery*/
-    @media all and (max-width: 768px) {
+@media all and (max-width: 768px) {
 *{
 box-sizing: border-box;
 }
-        
-        /* Slider adjustments */
-        .slider-container {
-            height: 40vh;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        .slider-images {
-            flex-direction: row;
-            overflow-x: auto;
-            scroll-snap-type: x mandatory;
-            gap: 10px;
-            padding: 0 10px;
-            -webkit-overflow-scrolling: touch;
-        }
-        
-        .slider-img {
-            scroll-snap-align: start;
-            min-width: 85%;
-            height: 30vh !important;
-            flex-shrink: 0;
-        }
-        
-        .slider-img h2 {
-            font-size: 14px;
-            bottom: 20px;
-            padding: 3px 8px;
-        }
-        
-        .slider-img.active {
-            min-width: 85%;
-            height: 30vh !important;
-        }
+.slider-container{
+display: none;
+}       
+/* Slider adjustments */
+.containerbg{
+background-color: #020626;
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+
+.container{
+width: 90%;
+margin: 0 auto;
+display: flex;
+border-radius: 10px;
+
+}
+
+.carousel{
+height: 400px;
+position: relative;
+overflow: hidden;
+border-radius:10px;
+}
+
+.slider{
+height: 100%;
+display: flex;
+width: 400%;
+transition: all 0.5s;
+}
+
+.slider section{
+flex-basis: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.controls .arrow{
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+cursor: pointer;
+color: white;
+}
+
+
+.carousel-section{
+overflow: hidden;
+}
+.carousel-section img{
+object-fit: cover;
+width: 100%;
+height: 100%;
+}
+
+.arrow.left{
+left: 10px;
+}
+
+.arrow.right{
+right: 10px;
+}
+
+.controls ul{
+position: absolute;
+bottom: 20px;
+left: 50%;
+transform: translate(-50%);
+list-style: none;
+display: flex;
+padding: 0;
+margin: 0;
+}
+
+.controls ul li{
+width: 14px;
+height: 14px;
+border: 2px solid white;
+border-radius: 50px;
+margin: 10px;
+cursor: pointer;
+background: white;
+}
+
+
+.controls ul li.selected{
+background: transparent;
+}
     
-    /*Bagian seteah slider*/
+/*Bagian seteah slider*/
         
     .rem-song{
         font-size: 16px;
