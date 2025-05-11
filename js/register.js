@@ -29,7 +29,6 @@ function validateForm(){
 
     let registArray = [username.value, email.value, password.value, age.value, gender]
 
-    console.log(registArray)
 
     document.querySelector("registerForm")
 
