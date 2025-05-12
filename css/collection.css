@@ -14,11 +14,12 @@
 }
 #songcollectionhead{
     margin-right: auto;
+    margin-right: 10px ;
 }
 
 .section-header{
     margin-top: 10px;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 .new-playlist{
@@ -170,6 +171,15 @@ margin-right: 20px;
     
 }
 
+.other-songs-list p{
+    font-size: 12px;
+    word-wrap: break-word;
+    word-break: break-word;
+    max-width: 250px; 
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+
 .other-overlay{
     display: flex;
     flex-direction:column-reverse ;
@@ -237,8 +247,20 @@ margin-right: 20px;
         margin-bottom: 0px;
     } 
 
+     .songs {
+        flex-direction: column;
+    }
+
     .songs-list{
         margin-bottom:5px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+     .songs-sections {
+        width: 100%;
+        padding: 0 10px;
     }
 
     .other-songs-section{
@@ -247,7 +269,8 @@ margin-right: 20px;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        
+        flex-direction: column;
+        align-items: center;
     }
 
     .other-songs-list{
@@ -255,13 +278,18 @@ margin-right: 20px;
         align-items: center;
         display: flex;
         flex-direction: column;
+        width: 90%;
+        margin-bottom: 20px;
     }
 
     .other-songs-list img{
         width: 150px;
         height: 150px;
-        
+    
+    }
 
+    #other-songs-name {
+        font-size: 14px;
     }
 
     .other-overlay{
@@ -277,12 +305,53 @@ margin-right: 20px;
     }
    
     .nav-list{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
        font-size: small;
        text-align: center;
     }
     .logo-icon, .profile-icon, .dropdown-icon{
         width: auto;
         position: relative;
+    
+
+    }
+
+    #songs-pict img {
+        width: 100%;
+        max-width: 300px;
     }
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+    .nav-list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .songs {
+        flex-direction: column;
+    }
+
+    .songs-sections {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .songs-list {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+
+    .other-songs-section {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .other-songs-list {
+        width: 45%;
+        margin: 10px;
+    }
+}
