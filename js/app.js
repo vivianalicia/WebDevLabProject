@@ -1,106 +1,99 @@
-jQuery(document).ready(function ($) {
-    let currentIndex = 0;
-    const slides = $(".slider-img");
-    const totalSlides = slides.length;
-
-    slides.eq(currentIndex).addClass("active");
-
-    function animateTextIn(element) {
-        $(element).css({
-            transform: 'translateX(-5%)',
-            opacity: 0
-        })
+document.addEventListener('DOMContentLoaded', function() {
+    // Get DOM elements
+    const slider = document.querySelector('.slider');
+    const leftArrow = document.querySelector('.left');
+    const rightArrow = document.querySelector('.right');
+    const indicatorParents = document.querySelector('.controls ul');
+    const indicators = document.querySelectorAll('.controls li');
+    const carousel = document.querySelector('.carousel');
+    
+    // Variables
+    let sectionIndex = 0;
+    let isTransitioning = false;
+    let autoSlideInterval;
+    const totalSlides = document.querySelectorAll('.carousel-section').length;
+    const slideDelay = 4000; // 4 seconds
+    
+    // Function to update the slider position and indicators
+    function setIndex() {
+        if (isTransitioning) return;
         
+        // Set transitioning state
+        isTransitioning = true;
+        
+        // Remove selected class from all indicators
+        document.querySelector('.controls .selected').classList.remove('selected');
+        
+        // Add selected class to current indicator
+        indicators[sectionIndex].classList.add('selected');
+        
+        // Move the slider
+        slider.style.transform = 'translateX(' + (sectionIndex * -25) + '%)';
+        
+        // Reset transitioning state after animation completes
         setTimeout(() => {
-            element.css({
-                transition: "opacity 0.8s ease-out, transform 0.8s ease-out",
-                opacity: 1,
-                transform: "translateX(0)"
-            });
-        }, 100);
+            isTransitioning = false;
+        }, 500);
     }
-
-    function showNextSlide() {
-        slides.removeClass("active");
-        currentIndex = (currentIndex + 1) % totalSlides;
-        slides.eq(currentIndex).addClass("active");
-
-        $(".slider-img h2").css({
-            opacity: 0,
-            transform: "translateX(-50px)",
-            transition: "none"
-        });
-
-        setTimeout(() => {
-            animateTextIn(slides.eq(currentIndex).find("h2"));
-        }, 300);
+    
+    // Function to go to next slide
+    function goToNext() {
+        if (sectionIndex < totalSlides - 1) {
+            sectionIndex++;
+        } else {
+            sectionIndex = 0; // Loop back to first slide
+        }
+        setIndex();
     }
-
-    setInterval(showNextSlide, 3000);
-
-    $(".slider-img").on("click", function () {
-        slides.removeClass("active");
-        $(this).addClass("active");
-        currentIndex = $(this).index();
-
-        $(".slider-img h2").css({
-            opacity: 0,
-            transform: 'translateX(-50%)'
-        });
-        animateTextIn($(this).find("h2"));
-    });
-
-});
-
-const slider = document.querySelector('.slider');
-const leftArrow = document.querySelector('.left');
-const rightArrow = document.querySelector('.right');
-const indicatorParents = document.querySelector('.controls ul')
-let sectionIndex=0;
-
-function setIndex(){
-  document.querySelector('.controls .selected').classList.remove('selected')
-  slider.style.transform = 'translate('+ (sectionIndex*-25) + '%)';
-}
-
-document.querySelectorAll('.controls li').forEach(function(indicatior, ind){
-indicatior.addEventListener('click', function(){
-sectionIndex=ind;
-indicatior.classList.add('selected');
-setIndex();
-    });
-});
-
-rightArrow.addEventListener('click', function(){
-sectionIndex = (sectionIndex < 3) ? sectionIndex + 1:3;
-indicatorParents.children[sectionIndex].classList.add('selected');
-setIndex();
-});
-
-leftArrow.addEventListener('click', function(){
-sectionIndex = (sectionIndex > 0) ? sectionIndex - 1:0;
-indicatorParents.children[sectionIndex].classList.add('selected');
-setIndex();
-});
-
-$(document).ready(function() {
-    let currentIndex = 0;
-    const $slides = $('.slider section');
-    const totalSlides = $slides.length;
-    let interval;
-
-    // Fungsi untuk pindah slide
-    function goToSlide(index) {
-        currentIndex = index;
-        $('.slider').css('transform', `translateX(-${currentIndex * 100}%)`);
-        $slides.removeClass('active').eq(currentIndex).addClass('active');
+    
+    // Function to go to previous slide
+    function goToPrevious() {
+        if (sectionIndex > 0) {
+            sectionIndex--;
+        } else {
+            sectionIndex = totalSlides - 1; // Loop to last slide
+        }
+        setIndex();
     }
-
-    // Auto slide setiap 5 detik
+    
+    // Start auto-sliding
     function startAutoSlide() {
-        interval = setInterval(() => {
-            goToSlide((currentIndex + 1) % totalSlides);
-        }, 5000);
+        autoSlideInterval = setInterval(goToNext, slideDelay);
     }
+    
+    // Stop auto-sliding
+    function stopAutoSlide() {
+        clearInterval(autoSlideInterval);
+    }
+    
+    // Add click event listeners to indicators
+    indicators.forEach(function(indicator, index) {
+        indicator.addEventListener('click', function() {
+            sectionIndex = index;
+            setIndex();
+        });
+    });
+    
+    // Add click event listener to right arrow
+    rightArrow.addEventListener('click', function() {
+        goToNext();
+        // Reset auto-slide timer when manually navigating
+        stopAutoSlide();
+        startAutoSlide();
+    });
+    
+    // Add click event listener to left arrow
+    leftArrow.addEventListener('click', function() {
+        goToPrevious();
+        // Reset auto-slide timer when manually navigating
+        stopAutoSlide();
+        startAutoSlide();
+    });
+    
+    // Pause auto-sliding when hovering over carousel
+    carousel.addEventListener('mouseenter', stopAutoSlide);
+    carousel.addEventListener('mouseleave', startAutoSlide);
+    
+    // Start auto-sliding when page loads
+    startAutoSlide();
 });
-
