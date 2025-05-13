@@ -144,7 +144,7 @@ ul li{
     padding: 50px;
     margin-bottom: 50px;
 }
-.verse-1, .verse-2, .chorus, .post-chorus, .bridge, .interlude, .outro{
+.lyrics{
     white-space: pre-line;
     text-align: center;
 }
