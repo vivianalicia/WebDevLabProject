@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../css/navbar.css">
     <link rel="stylesheet" href="../css/Collection.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
@@ -13,10 +12,10 @@
         <ul class="nav-list">
             <img class="logo-icon" src="../assets/Navigation/Logo.png" alt="Logo G'roovy Music">
             <li class="nav-item"><a href="../index.html">Home</a></li>
-            <li class="nav-item"><a href="./AboutUs.html">About Us</a></li>
+            <li class="nav-item"><a href="../html/AboutUs.html">About Us</a></li>
             <li class="nav-dropdown">
                 <div>
-                    <a href="">Songs Collection</a>
+                    <a href="../html/Collection.html">Songs Collection</a>
                     <img class="dropdown-icon" src="../assets/Navigation/dropdown.png" alt="">
                 </div>
                 <div class="dropdown-item">
@@ -30,7 +29,6 @@
             <img class="profile-icon" src="../assets/Navigation/profile-icon.png" alt="profile">
         </ul>
     </nav>
-
     <br>
     
     <div class="header-collection">
@@ -44,7 +42,7 @@
 
     <div class="new-playlist">
 
-        <div class="playlist-section"> 
+        <div class="playlist-section" data-id="1"> 
             <h5 id="playlist-name">Travis Scott - FE!N</h5>
             <div class="overlay">
                 <p>“FE!N” is a bold, immersive album where Travis Scott blends futuristic trap with introspective themes and experimental sounds.</p>
@@ -54,10 +52,10 @@
             <img src="../assets/Collection/Pop/travis scott - UTOPIA.jpeg" alt="">
         </div>
 
-        <div class="playlist-section">
-            <h5 id="playlist-name 1">Billie Eilish - Wildflower</h5>
+        <div class="playlist-section" data-id="2">
+            <h5 id="playlist-name">Billie Eilish - Wildflower</h5>
             <div class="overlay">
-                <p>"Wildflower" is a folk-pop ballad by Billie Eilish about the guilt of falling for a friend’s ex. With soft acoustic tones and raw emotion, it showcases her intimate storytelling.</p>
+                <p>Wildflower" is a folk-pop ballad by Billie Eilish about the guilt of falling for a friend’s ex. With soft acoustic tones and raw emotion, it showcases her intimate storytelling.</p>
                 <h2>WILDFLOWER</h2>
             </div>
             <img src="../assets/Collection/Pop/billiecover.jpeg" alt="">
@@ -172,13 +170,6 @@
     
 
     </div>
-
-   
-
-    
-
-
-
 </body>
-<script src=""></script>
+<script src="../js/song-list.js"></script>
 </html>
