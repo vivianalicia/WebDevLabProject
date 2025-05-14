@@ -1,4 +1,10 @@
 document.addEventListener("DOMContentLoaded", function(){
+    const playIcon = document.getElementById("play");
+    const pauseIcon = document.getElementById ("pause");
+    const seekSlider = document.getElementById("range");
+    const currentTime = document.getElementById("current-time");
+    const durationTime = document.getElementById("total-time");
+    const audio = document.getElementById("audio");
     const songs = [
         {
             id: '1',
@@ -6,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function(){
             artist: 'Travis Scott',
             description: 'FE!N” is a bold, immersive album where Travis Scott blends futuristic trap with introspective themes and experimental sounds.',
             cover: '../assets/Collection/Pop/travis scott - UTOPIA.jpeg',
-            file: '../assets/Songs/Travis Scott Ft. Playboi Carti & Sheck Wes – FEIN',
+            file: '../assets/Songs/Travis Scott Ft. Playboi Carti & Sheck Wes – FEIN.mp3',
             lyric: `[Intro: Travis Scott & Sheck Wes]
                     Just come outside for the night (Yeah)
                     Take your time, get your light (Yeah)
@@ -95,7 +101,7 @@ document.addEventListener("DOMContentLoaded", function(){
             artist: 'Billie Eilish',
             description: 'Wildflower" is a folk-pop ballad by Billie Eilish about the guilt of falling for a friend’s ex. With soft acoustic tones and raw emotion, it showcases her intimate storytelling.',
             cover: '../assets/Collection/Pop/billiecover.jpeg',
-            file: '../assets/Songs/',
+            file: '../assets/Songs/Billie Eilish – WILDFLOWER.mp3',
             lyric: `[Verse 1]
                     Things fall apart
                     And time breaks your heart
@@ -164,7 +170,55 @@ document.addEventListener("DOMContentLoaded", function(){
     const params = new URLSearchParams(window.location.search);
     const songId = params.get('id');
     const song = songs.find(s=> s.id == songId);
+    //load songs
+    function loadSongFromDetail() {
+        audio.src = song.file;
+        audio.load();
+        audio.play();
+        playIcon.style.display = "none";
+        pauseIcon.style.display = "inline";
+    }
+    //play pause
+    playIcon.addEventListener("click", ()=>{
+        audio.play();
+        playIcon.style.display = "none";
+        pauseIcon.style.display = "inline";
+    });
+    pauseIcon.addEventListener("click", ()=> {
+        audio.pause();
+        playIcon.style.display = "inline";
+        pauseIcon.style.display = "none";
+    });
 
+    ///fungsi format detik ke menit:detik
+    function formatTime(seconds) {
+        const mins = Math.floor(seconds/60);
+        const secs = Math.floor (seconds % 60);
+        return `${mins}:${secs < 10 ? "0" : ""}${secs}`;
+    }
+    //Update time & slider
+    audio.addEventListener("timeupdate", ()=>{
+        seekSlider.value=(audio.currentTime / audio.duration) * 100;
+        currentTime.textContent = formatTime(audio.currentTime);
+    });
+
+    //slider ke posisi tertentu dan lagu ikut berubah
+    seekSlider.addEventListener("input", ()=>{
+        if(!isNaN(audio.duration)){
+            const previewTime = (seekSlider.value/100) * audio.duration;
+            currentTime.textContent = formatTime(previewTime);
+        }
+    })
+    seekSlider.addEventListener("change", () =>{
+        if (!isNaN(audio.duration)){
+            const seekTo = (seekSlider.value/100) * audio.duration;
+            audio.currentTime = seekTo;
+        }
+    })
+
+    audio.addEventListener("loadedmetadata", () =>{
+        durationTime.textContent= formatTime(audio.duration);
+    })
     if (song){
         document.querySelectorAll('.song-name-value').forEach(el => {
             el.textContent = song.title;
@@ -177,6 +231,7 @@ document.addEventListener("DOMContentLoaded", function(){
             el.src = song.cover;
         });
         document.querySelector('.lyrics').textContent = song.lyric;
-
+        loadSongFromDetail();
     }
+
 })
