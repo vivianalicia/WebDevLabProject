@@ -637,7 +637,7 @@ document.addEventListener("DOMContentLoaded", function(){
             artist: 'Ariana Grande',
             description: 'a short, atmospheric track with soft melodies and dreamy vocals, setting a romantic and emotional tone.',
             cover: '../assets/Collection/R&B/ariana - intro',
-            file: '../assets/Songs/',
+            file: '../assets/Songs/Ariana Grande – intro (end of the world).mp4a',
             lyric: `[Intro]
                     Uh
 
