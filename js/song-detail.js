@@ -3045,7 +3045,7 @@ document.addEventListener("DOMContentLoaded", function(){
             id: '41',
             title:'Luther',
             artist:'Kendrick Lamar, SZA',
-            description:'',
+            description:'"LUTHER" by Kendrick Lamar is a confident, soulful track blending smooth melodies with bold lyrics, paying tribute to legacy and self-assurance.',
             cover:'../assets/Home/luther.jpeg',
             file:'../assets/Songs/Kendrick Lamar - luther.mp3',
             lyric:
