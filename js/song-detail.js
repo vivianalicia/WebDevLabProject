@@ -2684,7 +2684,7 @@ document.addEventListener("DOMContentLoaded", function(){
             artist:'Sabrina Carpenter',
             description:'"Nonsense" by Sabrina Carpenter is a flirty, playful song with clever, cheeky lyrics about being tongue-tied around a crush.',
             cover:'../assets/Home/sabrinacarpenter.jpeg',
-            file:'../assets/Songs/',
+            file:'../assets/Songs/Sabrina Carpenter - Nonsense (Official Audio).mp3',
             lyric:
             `[Intro]
             Oh-oh, oh-oh, oh-oh (Oh-oh, la-la)
@@ -3119,7 +3119,7 @@ document.addEventListener("DOMContentLoaded", function(){
             artist:'Lady Gaga, Bruno Mars',
             description:'',
             cover:'../assets/Home/diewithsmile.jpeg',
-            file:'../assets/Songs/',
+            file:'../assets/Songs/Lady Gaga Bruno Mars - Die With A Smile (Official Audio).mp3',
             lyric:
             `[Intro: Bruno Mars]
             (Ooh, ooh)
@@ -3321,7 +3321,7 @@ document.addEventListener("DOMContentLoaded", function(){
             artist:'ROSE, Bruno Mars',
             description:'"APT (Apartment)" by Rosé and Bruno Mars is a soft and introspective ballad about loneliness, memories, and emotional distance within a familiar space.',
             cover:'../assets/Home/apt..jpeg',
-            file:'../assets/Songs/',
+            file:'../assets/Songs/ROSÈ & Bruno Mars - APT. (Official Audio).mp3',
             lyric:
             `[Intro]
             Chaeyoung-iga joahaneun
@@ -3428,7 +3428,7 @@ document.addEventListener("DOMContentLoaded", function(){
             artist:'Billie Eilish ',
             description:'"Birds of a Feather" by Billie Eilish is a haunting love song about wanting to be inseparable with someone—through life and even death.',
             cover:'../assets/Home/birdsoffeather.jpeg',
-            file:'../assets/Songs/',
+            file:'../assets/Songs/Billie Eilish - BIRDS OF A FEATHER (Audio) (1).mp3',
             lyric:
             `[Intro]
             (But I wanna stay)
