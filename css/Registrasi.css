@@ -11,7 +11,9 @@ nav{
     font-size: 18px;
     
 }
-
+.register-content{
+    height: fit-content;
+}
 .nav-list{
     display: flex;
     position: relative;
@@ -59,12 +61,13 @@ nav{
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100%;
+    border: 1px solid black;
 }
 
 .photo-panel{
     grid-area: "photo-panel" ;
     overflow: hidden;
-    
 }
 
 .photo-panel img{
@@ -108,7 +111,6 @@ nav{
 }
 
 .register-content button{
-    margin-top: 60px;
     width: 300px;
     border-radius: 5px;
     color: #F9F9E0;
@@ -118,6 +120,30 @@ nav{
 }
 
 @media screen and (max-width: 768px) {
+
+    .register-grid{
+        display: flex;
+        position: relative;
+        flex-direction: column;
+    }
+
+    .register-panel{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        background-color: #02062672;
+        color: #F9F9E0;
+    }
+
+    .register-panel h1{
+        color: #F9F9E0;
+    }
+
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
 
     .register-grid{
         display: flex;

@@ -3,6 +3,12 @@
     padding: 0px;
     font-family: 'Poppins', sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
+.dropdown-item li:hover{
+    background-color: #d5d5d5;
+}
 nav{
     position: relative;
     height: fit-content;
@@ -30,7 +36,7 @@ ul li{
 .nav-dropdown .dropdown-item{
     display: none;
     position:absolute;
-    background-color: #e2e2c8;
+    background-color: #F9F9E0;
     top:100%;
     width: 100%;
     height: fit-content;
@@ -68,10 +74,14 @@ ul li{
     margin-left: 10px;
 }
 .profile-icon{
-    margin-left: auto;
     width: auto;
-    height: 40px;
+    height: 30px;
     margin-right: 10px;
+}
+.profile{
+    margin-left: auto;
+    justify-content: center;
+    align-items: center;
 }
 .song-detail{
     background-color: #F9F9E0;

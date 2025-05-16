@@ -14,10 +14,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
         if (emailInput === storedData.email && passwordInput === storedData.password) {
             alert("Login successful!");
-
-            window.location.href = "../html/Home.html";
+            window.location.href = "../index.html";
         } else {
             alert("Incorrect email or password.");
         }
+
     });
 });

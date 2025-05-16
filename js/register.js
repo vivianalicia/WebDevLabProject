@@ -6,8 +6,8 @@ function validateForm(){
     let male = document.getElementById("male")
     let female = document.getElementById("female")
     let gender = male.checked ? "Male" : (female.checked ? "Female" : "")
-    if(username.value == "" || username.value.length < 3){
-        alert ("Username must be filled and more than 3 characters!")
+    if(username.value == "" || username.value.length < 4){
+        alert ("Name must be filled and more than 4 characters!")
     }else if(!email.value.endsWith("@gmail.com") && !email.value.endsWith("@yahoo.com")){
         alert ("Email must ends with @gmail.com or @yahoo.com!")
     }else if (!isAlphaNumeric(password.value)){
@@ -18,6 +18,7 @@ function validateForm(){
         alert("Please select a gender!");
     }else{
         alert("Form successfully submitted!")
+        window.location.href = "../html/Login.html"
     }
 
     let userData = {

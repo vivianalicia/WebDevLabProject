@@ -1,15 +1,23 @@
 *{
-    font-family:'Poppins', Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.dropdown-item li:hover{
+    background-color: #d5d5d5;
+}
+img{
+    flex-shrink: 0; 
+    object-fit: cover;
 }
 nav{
-    position: relative;
-    height: fit-content;
     background-color: #F9F9E0;
     color: #020626;
     font-size: 1.2rem;
+    width: 100%;
 }
 ul li{
     list-style-type: none;
@@ -23,6 +31,11 @@ ul li{
     justify-content: left;
     gap: 5%;
 }
+.profile{
+    margin-left: auto;
+    justify-content: center;
+    align-items: center;
+}
 .nav-dropdown div{
     display: flex;
     flex-direction: row;
@@ -31,7 +44,7 @@ ul li{
 .nav-dropdown .dropdown-item{
     display: none;
     position:absolute;
-    background-color: #e2e2c8;
+    background-color: #F9F9E0;
     top:100%;
     width: 100%;
     height: fit-content;
@@ -69,9 +82,8 @@ ul li{
     margin-left: 10px;
 }
 .profile-icon{
-    margin-left: auto;
     width: auto;
-    height: 40px;
+    height: 30px;
     margin-right: 10px;
 }
 
@@ -81,14 +93,11 @@ ul li{
     align-items: center;
 
 }
-#songcollectionhead{
-    margin-right: auto;
-    margin-right: 10px ;
-}
 
-.section-header{
+
+#POP, #KPOP, #RNB{
     margin-top: 10px;
-    margin-left: 20px;
+    padding-left: 20px;
 }
 
 .new-playlist{
@@ -147,13 +156,12 @@ ul li{
 .songs-sections{
     display: flex;
     flex-wrap: wrap;
-    margin-left: 30px;
+    padding-left: 20px;
     margin-bottom: 10px;
     gap: 10px;
 }
 
 .songs-list{
-    margin-right: 20px;
     width: 530px;
     height: 120px;
     background-color: rgb(2, 6, 38);
@@ -161,7 +169,7 @@ ul li{
     flex-direction: row;
     align-items: center;
     padding-left: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 #songs-content{
@@ -222,18 +230,19 @@ margin-right: 20px;
 
 
 .other-songs-section{
+    margin-top: 10px;
     margin-bottom: 20px;
-    margin-left: 30px;
     display: flex;
     flex-wrap:wrap;
-    gap: 10px;
+    gap: 20px;
+    justify-content: space-around;
     width: 100%;
 }
 
 .other-songs-list{
     position: relative;
     height: 100%;
-    margin-right: 50px;
+
 }
 .other-songs-list img{
     width: 250px;
