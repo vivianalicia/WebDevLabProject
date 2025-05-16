@@ -1885,7 +1885,7 @@ document.addEventListener("DOMContentLoaded", function(){
             artist:'Post Malone',
             description:'"I Fall Apart" by Post Malone is a raw, emotional expression of heartbreak and vulnerability after betrayal in a relationship.',
             cover:'../assets/Home/post.jpeg',
-            file:'../assets/Songs/',
+            file:'../assets/Songs/I Fall Apart (1).mp3',
             lyric:
             `[Intro]
             Ooh, I fall apart
@@ -2396,7 +2396,7 @@ document.addEventListener("DOMContentLoaded", function(){
             artist:'The Chainsmoker',
             description:'"Paris" by The Chainsmokers is a nostalgic story of youthful rebellion and romantic escape, set in a dreamlike mood.',
             cover:'../assets/Home/thechainsmoker.jpeg',
-            file:'../assets/Songs/',
+            file:'../assets/Songs/The Chainsmokers - Paris.mp3',
             lyric:
             `[Verse 1: Andrew Taggart]
             We were stayin' in Paris
@@ -2482,7 +2482,7 @@ document.addEventListener("DOMContentLoaded", function(){
             artist:'Pop Smoke',
             description:'"Dior" by Pop Smoke is a bold, gritty anthem that showcases confidence, luxury, and street pride in the drill music style.',
             cover:'../assets/Home/popsmoke.jpeg',
-            file:'../assets/Songs/',
+            file:'../assets/Songs/Pop Smoke - Dior.mp3',
             lyric:
             `[Intro]
             (Traphouse Mob)
@@ -2571,7 +2571,7 @@ document.addEventListener("DOMContentLoaded", function(){
             artist:'Shawn Mendes',
             description:'"Stitches" by Shawn Mendes is a powerful song about the pain of heartbreak and struggling to heal after emotional wounds.',
             cover:'../assets/Home/stitches.jpeg',
-            file:'../assets/Songs/',
+            file:'../assets/Songs/Pop Smoke - Dior.mp3',
             lyric:
             `[Verse 1]
             I thought that I'd been hurt before
@@ -2649,7 +2649,7 @@ document.addEventListener("DOMContentLoaded", function(){
             artist:'Paul Partohap',
             description:'"VITAMIN U" by Paul Partohap is a charming love song expressing how someone special brings joy, energy, and healing like a daily dose of happiness.',
             cover:'../assets/Home/paulpartohap.jpeg',
-            file:'../assets/Songs/',
+            file:'../assets/Songs/Paul Partohap - VITAMIN U (Lyric Video).mp3',
             lyric:
             `Hand in hand
             Forever side by side
@@ -2764,7 +2764,7 @@ document.addEventListener("DOMContentLoaded", function(){
             artist:'Arctic Monkeys',
             description:'"505" by Arctic Monkeys is a moody, nostalgic rock ballad about longing, regret, and the powerful pull of a past relationship.',
             cover:'../assets/Home/arctic.jpeg',
-            file:'../assets/Songs/',
+            file:'../assets/Songs/505 - Arctic Monkeys.mp3',
             lyric:
             `[Chorus]
             I'm going back to 505
@@ -2811,7 +2811,7 @@ document.addEventListener("DOMContentLoaded", function(){
             artist:'Ariana Grande',
             description:'"Boyfriend" by Ariana Grande is a catchy pop song about the confusion and tension in a relationship that’s more than friends but not quite official.',
             cover:'../assets/Home/arianagrande.jpeg',
-            file:'../assets/Songs/',
+            file:'../assets/Songs/Ariana Grande & Social House - boyfriend (AUDIO).mp3',
             lyric:
             `[Verse 1: Ariana Grande]
             I'm a motherfuckin' train wreck
@@ -2901,7 +2901,7 @@ document.addEventListener("DOMContentLoaded", function(){
             artist:'Keshi',
             description:'"Limbo" by Keshi is a melancholic, smooth track exploring the feeling of emotional numbness and being stuck between love and loss.',
             cover:'../assets/Home/keshi.jpeg',
-            file:'../assets/Songs/',
+            file:'../assets/Songs/LIMBO.mp3',
             lyric:
             `[Intro]
             Ooh
@@ -2956,7 +2956,7 @@ document.addEventListener("DOMContentLoaded", function(){
             artist:'Ariana Grande',
             description:'"Dangerous Woman" by Ariana Grande is a sensual, confident anthem about embracing one’s power and desire in a bold, unapologetic way.',
             cover:'../assets/Home/arianaa.jpeg',
-            file:'../assets/Songs/',
+            file:'../assets/Songs/Ariana Grande - Dangerous Woman (Official Audio).mp3',
             lyric:
             `[Intro]
             Oh, yeah
@@ -3047,7 +3047,7 @@ document.addEventListener("DOMContentLoaded", function(){
             artist:'Kendrick Lamar, SZA',
             description:'',
             cover:'../assets/Home/luther.jpeg',
-            file:'../assets/Songs/',
+            file:'../assets/Songs/Kendrick Lamar - luther.mp3',
             lyric:
             `[Intro]
             If this world were mine
@@ -3198,7 +3198,7 @@ document.addEventListener("DOMContentLoaded", function(){
             artist:'Kendrick Lamar',
             description:'"Not Like Us" by Kendrick Lamar is a bold, aggressive track aimed at critics and rivals, asserting independence and dominance.',
             cover:'../assets/Home/notlikeus.jpeg',
-            file:'../assets/Songs/',
+            file:'../assets/Songs/Not Like Us.mp3',
             lyric:
             `[Intro]
             Psst, I see dead people
@@ -3493,7 +3493,7 @@ document.addEventListener("DOMContentLoaded", function(){
             artist:'Sabrina Carpenter',
             description:'"Please Please Please" by Sabrina Carpenter is a pop plea for a partner to act right and not ruin the fragile, budding love between them.',
             cover:'../assets/Home/pleasepleaseplease.jpeg',
-            file:'../assets/Songs/',
+            file:'../assets/Songs/Please Please Please.mp3',
             lyric:
             `[Verse 1]
             I know I have good judgment, I know I have good taste
@@ -3546,7 +3546,7 @@ document.addEventListener("DOMContentLoaded", function(){
             artist:'Bazzi',
             description:'"I.F.L.Y" by Bazzi is a dreamy, romantic song expressing deep affection and the euphoric feeling of being in love',
             cover:'../assets/Home/ifly.jpg',
-            file:'../assets/Songs/',
+            file:'../assets/Songs/I.F.L.Y..mp3',
             lyric:
             `[Intro]
             This my baby
@@ -3621,7 +3621,7 @@ document.addEventListener("DOMContentLoaded", function(){
             artist:'Ariana Grande',
             description:'"My Everything" by Ariana Grande is a heartfelt ballad mourning the loss of someone who meant the world, with emotional vulnerability.',
             cover:'../assets/Home/myeverything.jpeg',
-            file:'../assets/Songs/',
+            file:'../assets/Songs/My Everything.mp3',
             lyric:
             `[Verse 1]
             I cried enough tears to see my own reflection in them
@@ -3674,7 +3674,7 @@ document.addEventListener("DOMContentLoaded", function(){
             artist:'Jungkook',
             description:'"Seven" by Jungkook is a passionate and sensual track promising love and intimacy every day of the week.',
             cover:'../assets/Home/seven.jpeg',
-            file:'../assets/Songs/',
+            file:'../assets/Songs/Seven (feat. Latto) - Clean Ver..mp3',
             lyric:
             `[Verse 1: Jung Kook]
             Weight of the world on your shoulders
@@ -3683,26 +3683,26 @@ document.addEventListener("DOMContentLoaded", function(){
             I take my hands and trace your lines
 
             [Pre-Chorus: Jung Kook]
-            It's the way that you can ride
-            It's the way that you can ride (Oh-oh-oh-oh)
+            It's the way that we can ride
+            It's the way that we can ride (Oh-oh-oh-oh)
             Think I met you in another life
             So break me off another time (Oh-oh-oh-oh)
             You wrap around me and you give me life
             And that's why night after night
-            I'll be fuckin' you right
+            I'll be lovin' you right
 
             [Chorus: Jung Kook]
             Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday (A week)
             Monday, Tuesday, Wednesday, Thursday, Friday
             Seven days a week
             Every hour, every minute, every second
-            You know night aftеr night
-            I'll be fuckin' you right
+            You know night after night
+            I'll be lovin' you right
             Seven days a week
 
             [Verse 2: Jung Kook]
-            You lovе when I jump right in
-            All of me, I'm offering
+            You love when I jump right in
+            All of me I'm offerin'
             Show you what devotion is
             Deeper than the ocean is
             Wind it back, I'll take it slow
@@ -3710,13 +3710,13 @@ document.addEventListener("DOMContentLoaded", function(){
             Show you what devotion is
             Deeper than the ocean is
             [Pre-Chorus: Jung Kook]
-            It's the way that you can ride
-            It's the way that you can ride (Oh-oh-oh-oh)
+            It's the way that we can ride
+            It's the way that we can ride (Oh-oh-oh-oh)
             Think I met you in another life
             So break me off another time (Oh-oh-oh-oh)
             You wrap around me and you give me life
             And that's why night after night
-            I'll be fuckin' you right
+            I'll be lovin' you right
 
             [Chorus: Jung Kook & Latto]
             Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday (A week)
@@ -3724,48 +3724,49 @@ document.addEventListener("DOMContentLoaded", function(){
             Seven days a week
             Every hour, every minute, every second
             You know night after night
-            I'll be fuckin' you right, seven days a week
+            I'll be lovin' you right (I'll be lovin' you right)
+            Seven days a week
             Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday (A week)
             Monday, Tuesday, Wednesday, Thursday, Friday
-            Seven days a week
+            Seven days a week (Oh, oh, seven days a week)
             Every hour, every minute, every second
-            You know night after night
-            I'll be fuckin' you right
+            You know night after night (Night after night)
+            I'll be lovin' you right (I'll be lovin' you right)
             Seven days a week
             (Big Latto)
-
             [Verse 3: Latto & Jung Kook]
             Tightly take control, tightly take his soul
             Take your phone and put it in the camera roll (Uh)
             Leave them clothes at the door
-            What you waitin' for? Better come and hit ya goals
-            Uh, he jump in it, both feet
-            Goin' to the sun-up, we ain't gettin' no sleep
+            What you waiting for? Better come and hit ya goals
+            He jump in it both feet
+            Going to the sun-up, we ain't gettin' no sleep
             Seven days a week, seven different sheets
             Seven different angles, I can be your fantasy
             Open up, say, "Ah"
             Come here, baby, let me swallow your pride
-            What you on? I can match your vibe (Vibe)
-            Hit me up and I'ma Cha-cha Slide (Skrt)
+            What you on? I can match your vibe
+            Hit me up and I'ma Cha Cha Slide
             You make Mondays feel like weekends
             I make him never think about cheatin'
             Got you skippin' work and meetings
-            Fuck it, let's sleep in, yes
+            Let's sleep in, yeah
             (Seven days a week, ooh)
+
             [Chorus: Jung Kook]
             Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday (A week)
             Monday, Tuesday, Wednesday, Thursday, Friday
             Seven days a week
             Every hour, every minute, every second (Oh-oh-oh)
             You know night after night
-            I'll be fuckin' you right
+            I'll be lovin' you right
             Seven days a week (Oh)
             Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday (A week)
             Monday, Tuesday, Wednesday, Thursday, Friday (Ooh, ooh, ooh, ooh, ooh)
             Seven days a week
             Every hour, every minute, every second (Hour, minute, second)
             You know night after night
-            I'll be fuckin' you right
+            I'll be lovin' you right
             Seven days a week`
         },    
 
@@ -3775,7 +3776,7 @@ document.addEventListener("DOMContentLoaded", function(){
             artist:'Jon Bellion',
             description:'"All Time Low" by Jon Bellion is a catchy yet vulnerable song about the emotional crash after losing someone who meant everything.',
             cover:'../assets/Home/alltimelow.jpeg',
-            file:'../assets/Songs/',
+            file:'../assets/Songs/Jon Bellion - All Time Low (Audio).mp3',
             lyric:
             `[Verse 1]
             I was the knight in shining armor in your movie
