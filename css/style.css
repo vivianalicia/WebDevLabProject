@@ -107,7 +107,7 @@ ul li{
     }
     
     .rem-song{
-    font-size: 18px;
+    font-size: 26px;
     font-weight: bold;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -242,91 +242,52 @@ ul li{
 
 
 
-    .container-utama{
-        background-color: #020626;
-        padding: 15px;
-        gap: 15px;
-        height: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+.container-utama{
+  background-color: #020626;
+  padding: 20px;
+  gap: 30px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
     }
-    
-    .best-seller{
-    width: 30%;
-    height: 95%;
-    border-radius: 5px;
-    background-color: #F9F9E0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 15px;
-    gap: 10px;
-    }
-    
-    .best-seller p{
-    color: black;
-    font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    }
-    
-    .sold-song{
-    width: 95%;
-    height: 135px;
-    position: relative;
-    overflow: hidden;
-    display: flex;
-    gap: 5px;
-    align-items: center;
-    transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
-    }
-    .sold-song:hover {
-        transform: scale(1.05);
-        cursor: pointer; 
-        background-color: rgb(0, 0, 0, 0.3);
-        border-radius: 5px;
-    }
-    
-    .sold-song img{
-    width: 50%;
-    height: 100px;
-    object-fit: cover;
-    border-radius: 5px;
-    }
-    
-    .sold-song p{
-    font-size: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: #020626;
-    }
-    
     
     .recently{
-        width: 70%;
+        width: 80%;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+        gap: 30px;
     }
     
     .rs-song{
-    height: 230px;
+    height: auto;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    background-color: #131836;
     justify-content: center;
-    background-color: #F9F9E0;
     border-radius: 5px;
-    gap: 15px;
     padding: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+    .rs-song:hover {
+    transform: translateY(-5px);
     }
     
     .recentlyp{
-        color: black;
-        font-size: 18px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: bold;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 15px;
+  background-image: linear-gradient(to right, #a855f7, #ec4899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
     }
     
     .more-song-fill{
@@ -334,8 +295,11 @@ ul li{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 15px;
+    overflow-x: auto;
+    padding: 10px 0;
     }
+
     
     .recently-list{
     width: 160px; 
@@ -364,17 +328,24 @@ ul li{
     
     .recently-list .rl{
     width: 100%;
-    font-size: 12px;
+    font-size: 20px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    }
+
+    .charliep{
+    font-size: 14px!important;
     }
     
     .recently-list .creator{
         width: 100%;
-        font-size: 12px;
-        color: rgb(0, 0, 0, 0.5);
+        font-size: 16px;
+        color: rgba(255, 255, 255, 0.6);
         font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
         }
+    
     
     .recently-list:hover {
         transform: scale(1.05);
@@ -391,7 +362,7 @@ ul li{
     align-items: center;
     justify-content: center;
     background-color: #020626;
-    gap: 30px;
+    gap: 50px;
     }
     
     
@@ -401,7 +372,7 @@ ul li{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 40px;
     }
     
     
