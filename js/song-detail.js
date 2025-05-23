@@ -584,8 +584,8 @@ document.addEventListener("DOMContentLoaded", function(){
             title: 'Intro',
             artist: 'Ariana Grande',
             description: 'a short, atmospheric track with soft melodies and dreamy vocals, setting a romantic and emotional tone.',
-            cover: '../assets/Collection/R&B/ariana - intro',
-            file: '../assets/Songs/Ariana Grande – intro (end of the world).mp4a',
+            cover: '../assets/Collection/R&B/ariana - intro.jpeg',
+            file: '../assets/Songs/Ariana Grande – intro (end of the world).mp3',
             lyric: `[Intro]
                     Uh
 
@@ -693,7 +693,7 @@ document.addEventListener("DOMContentLoaded", function(){
             artist: 'Bruno Mars',
             description: 'a fun, funky track celebrating confidence and style with a retro 90s vibe.',
             cover: '../assets/Collection/R&B/finnese.jpeg',
-            file: '../assets/Songs/Bruno Mars – Finesse.flac.mp3',
+            file: '../assets/Songs/Bruno Mars – Finesse.mp3',
             lyric: `[Intro]
                     Ayy
                     Ayy, yeah-yeah, yeah-yeah-yeah, yeah-yeah-yeah
