@@ -93,7 +93,7 @@ document.addEventListener("DOMContentLoaded", function(){
             id:'2',
             title: 'WILDFLOWER',
             artist: 'Billie Eilish',
-            description: 'Wildflower" is a folk-pop ballad by Billie Eilish about the guilt of falling for a friend’s ex. With soft acoustic tones and raw emotion, it showcases her intimate storytelling.',
+            description: '"Wildflower" is a folk-pop ballad by Billie Eilish about the guilt of falling for a friend’s ex. With soft acoustic tones and raw emotion, it showcases her intimate storytelling.',
             cover: '../assets/Collection/Pop/billiecover.jpeg',
             file: '../assets/Songs/Billie Eilish – WILDFLOWER.mp3',
             lyric: `[Verse 1]
@@ -1001,7 +1001,7 @@ document.addEventListener("DOMContentLoaded", function(){
             artist: 'Niki',
             description: '"Take a Chance with Me" is a heartfelt song about vulnerability and the courage to open up to love. With its gentle melody and sincere lyrics, it invites someone special to take a leap of faith and explore the possibility of a meaningful connection.',
             cover: '../assets/Home/niki.jpg',
-            file: '../assets/Songs/NIKI - Take A Chance With Me (Official Lyric Video).mp3',
+            file: '../assets/Songs/Charlie Puth - We Dont Talk Anymore (feat. Selena Gomez).mp3',
             lyric: `[Verse 1]
                     His laugh you'd die for, his laugh you'd die for
                     The kind that colors the sky
@@ -1189,7 +1189,7 @@ document.addEventListener("DOMContentLoaded", function(){
             artist:'J.Cole',
             description:'According to Cole himself the song has a double meaning, with the song not only about his love for a girl, but his love for hip-hop and how it’s got him up all night trying to create chart topping love songs.',
             cover:'../assets/Home/jcole.jpeg',
-            file:'../assets/Songs/Power Trip.mp3',
+            file:'../assets/Songs/EXO - Tempo.MP3',
             lyric:
             `[Chorus 1: J. Cole]
             Got me up all night
@@ -1306,7 +1306,7 @@ document.addEventListener("DOMContentLoaded", function(){
             artist: 'YNW Melly',
             description: '"Suicidal" by YMW OMG is an emotional song that explores the pain of heartbreak and mental struggle through raw, confessional lyrics.',
             cover: '../assets/Home/melly.jpeg',
-            file: '../assets/Songs/YNW Melly - Suicidal [Official Audio].mp3',
+            file: '../assets/Songs/Metro Boomin - Creepin.mp3',
             lyric:`[Intro]
                     Suicidal
                     Your love is suicidal
@@ -1394,7 +1394,7 @@ document.addEventListener("DOMContentLoaded", function(){
             artist:'SZA',
             description:'“Snooze” features SZA trying to be with a person who she loves so much. ',
             cover:'../assets/Home/sza.jpeg',
-            file:'../assets/Songs/SZA - Snooze (Audio).mp3',
+            file:'../assets/Songs/SZA - Kill Bill.mp3',
             lyric: `[Intro]
                     Ooh
                     I think I know
@@ -1473,8 +1473,8 @@ document.addEventListener("DOMContentLoaded", function(){
             title:'We Don\'t Talk Anymore',
             artist:'Charlie Puth',
             description:'"We Don’t Talk Anymore" by Charlie Puth is a melancholic duet about drifting apart from someone you once loved, filled with regret and longing.',
-            cover:'../assets/Songs/Charlie Puth - We Don\'t Talk Anymore (feat. Selena Gomez).mp3',
-            file:'',
+            cover:'../assets/Home/charlie.jpeg',
+            file:'../assets/Songs/Charlie Puth - We Dont Talk Anymore (feat. Selena Gomez).mp3',
             lyrics:`[Chorus: Charlie Puth]
             We don't talk anymore, we don't talk anymore
             We don't talk anymore like we used to do
@@ -2135,7 +2135,7 @@ document.addEventListener("DOMContentLoaded", function(){
             artist:'James Arthur',
             description:'"Train Wreck" by James Arthur is a heartfelt plea for help and love in the midst of emotional chaos and personal despair.',
             cover:'../assets/Home/jamesarthur.jpeg',
-            file:'../assets/Songs/James Arthur - Train Wreck (Audio).mp3',
+            file:'../assets/Songs/Travis Scott Ft. Playboi Carti & Sheck Wes – FEIN.mp3',
             lyric:
             `[Verse 1]
             Laying in the silence
@@ -2203,9 +2203,9 @@ document.addEventListener("DOMContentLoaded", function(){
             id: '30',
             title:'Mercy',
             artist:'Shawn Mendes',
-            description:'../assets/Home/shawn.jpeg',
+            description:'“Mercy” by Shawn Mendes is a heartfelt plea for love, blending raw emotion with powerful vocals.',
             cover:'../assets/Home/shawn.jpeg',
-            file:'../assets/Songs/Shawn Mendes - Mercy (Official Music Video).mp3',
+            file:'../assets/Songs/LANY - 13 (Official Audio).mp3',
             lyric:
             `[Intro]
             Mm-mm-mm, mm-mm, mm-mm-mm, mm, mm-mm-mm, mm, mmm
@@ -2288,7 +2288,7 @@ document.addEventListener("DOMContentLoaded", function(){
             artist:'The Weekend',
             description:'"Starboy" by The Weeknd is a dark, stylish track about fame, materialism, and the transformation that comes with success.',
             cover:'../assets/Home/theweekend.jpeg',
-            file:'../assets/Songs/Starboy.mp3',
+            file:'../assets/Songs/Bruno Mars – Finesse.mp3',
             lyric:
             `[Intro]
             Ayy
@@ -2396,7 +2396,7 @@ document.addEventListener("DOMContentLoaded", function(){
             artist:'The Chainsmoker',
             description:'"Paris" by The Chainsmokers is a nostalgic story of youthful rebellion and romantic escape, set in a dreamlike mood.',
             cover:'../assets/Home/thechainsmoker.jpeg',
-            file:'../assets/Songs/The Chainsmokers - Paris.mp3',
+            file:'../assets/Songs/Treasure.mp3',
             lyric:
             `[Verse 1: Andrew Taggart]
             We were stayin' in Paris
@@ -2482,7 +2482,7 @@ document.addEventListener("DOMContentLoaded", function(){
             artist:'Pop Smoke',
             description:'"Dior" by Pop Smoke is a bold, gritty anthem that showcases confidence, luxury, and street pride in the drill music style.',
             cover:'../assets/Home/popsmoke.jpeg',
-            file:'../assets/Songs/Pop Smoke - Dior.mp3',
+            file:'../assets/Songs/(BTS) Jungkook - Still With You.mp3',
             lyric:
             `[Intro]
             (Traphouse Mob)
@@ -2571,7 +2571,7 @@ document.addEventListener("DOMContentLoaded", function(){
             artist:'Shawn Mendes',
             description:'"Stitches" by Shawn Mendes is a powerful song about the pain of heartbreak and struggling to heal after emotional wounds.',
             cover:'../assets/Home/stitches.jpeg',
-            file:'../assets/Songs/Pop Smoke - Dior.mp3',
+            file:'../assets/Songs/Supernova - aespa (Audio).mp3',
             lyric:
             `[Verse 1]
             I thought that I'd been hurt before
@@ -2649,7 +2649,7 @@ document.addEventListener("DOMContentLoaded", function(){
             artist:'Paul Partohap',
             description:'"VITAMIN U" by Paul Partohap is a charming love song expressing how someone special brings joy, energy, and healing like a daily dose of happiness.',
             cover:'../assets/Home/paulpartohap.jpeg',
-            file:'../assets/Songs/Paul Partohap - VITAMIN U (Lyric Video).mp3',
+            file:'../assets/Songs/Hearts2Hwarts - The Chase.mp3',
             lyric:
             `Hand in hand
             Forever side by side
@@ -2684,7 +2684,7 @@ document.addEventListener("DOMContentLoaded", function(){
             artist:'Sabrina Carpenter',
             description:'"Nonsense" by Sabrina Carpenter is a flirty, playful song with clever, cheeky lyrics about being tongue-tied around a crush.',
             cover:'../assets/Home/sabrinacarpenter.jpeg',
-            file:'../assets/Songs/Sabrina Carpenter - Nonsense (Official Audio).mp3',
+            file:'../assets/Songs/EXO - Tempo.MP3',
             lyric:
             `[Intro]
             Oh-oh, oh-oh, oh-oh (Oh-oh, la-la)
@@ -2764,7 +2764,7 @@ document.addEventListener("DOMContentLoaded", function(){
             artist:'Arctic Monkeys',
             description:'"505" by Arctic Monkeys is a moody, nostalgic rock ballad about longing, regret, and the powerful pull of a past relationship.',
             cover:'../assets/Home/arctic.jpeg',
-            file:'../assets/Songs/505 - Arctic Monkeys.mp3',
+            file:'../assets/Songs/Bruno Mars – Finesse.mp3',
             lyric:
             `[Chorus]
             I'm going back to 505
@@ -2811,7 +2811,7 @@ document.addEventListener("DOMContentLoaded", function(){
             artist:'Ariana Grande',
             description:'"Boyfriend" by Ariana Grande is a catchy pop song about the confusion and tension in a relationship that’s more than friends but not quite official.',
             cover:'../assets/Home/arianagrande.jpeg',
-            file:'../assets/Songs/Ariana Grande & Social House - boyfriend (AUDIO).mp3',
+            file:'../assets/Songs/Charlie Puth - We Dont Talk Anymore (feat. Selena Gomez).mp3',
             lyric:
             `[Verse 1: Ariana Grande]
             I'm a motherfuckin' train wreck
@@ -2901,7 +2901,7 @@ document.addEventListener("DOMContentLoaded", function(){
             artist:'Keshi',
             description:'"Limbo" by Keshi is a melancholic, smooth track exploring the feeling of emotional numbness and being stuck between love and loss.',
             cover:'../assets/Home/keshi.jpeg',
-            file:'../assets/Songs/LIMBO.mp3',
+            file:'../assets/Songs/Travis Scott Ft. Playboi Carti & Sheck Wes – FEIN.mp3',
             lyric:
             `[Intro]
             Ooh
@@ -2956,7 +2956,7 @@ document.addEventListener("DOMContentLoaded", function(){
             artist:'Ariana Grande',
             description:'"Dangerous Woman" by Ariana Grande is a sensual, confident anthem about embracing one’s power and desire in a bold, unapologetic way.',
             cover:'../assets/Home/arianaa.jpeg',
-            file:'../assets/Songs/Ariana Grande - Dangerous Woman (Official Audio).mp3',
+            file:'../assets/Songs/Tyla – PUSH 2 START.mp3',
             lyric:
             `[Intro]
             Oh, yeah
@@ -3047,7 +3047,7 @@ document.addEventListener("DOMContentLoaded", function(){
             artist:'Kendrick Lamar, SZA',
             description:'"LUTHER" by Kendrick Lamar is a confident, soulful track blending smooth melodies with bold lyrics, paying tribute to legacy and self-assurance.',
             cover:'../assets/Home/luther.jpeg',
-            file:'../assets/Songs/Kendrick Lamar - luther.mp3',
+            file:'../assets/Songs/Metro Boomin - Creepin.mp3',
             lyric:
             `[Intro]
             If this world were mine
@@ -3117,9 +3117,9 @@ document.addEventListener("DOMContentLoaded", function(){
             id: '42',
             title:'Die With a Smile',
             artist:'Lady Gaga, Bruno Mars',
-            description:'',
+            description:'“Die With a Smile” by Lady Gaga is a fierce, glam anthem about facing life and death with bold confidence.',
             cover:'../assets/Home/diewithsmile.jpeg',
-            file:'../assets/Songs/Lady Gaga Bruno Mars - Die With A Smile (Official Audio).mp3',
+            file:'../assets/Songs/Ariana Grande – intro (end of the world).mp3',
             lyric:
             `[Intro: Bruno Mars]
             (Ooh, ooh)
@@ -3198,7 +3198,7 @@ document.addEventListener("DOMContentLoaded", function(){
             artist:'Kendrick Lamar',
             description:'"Not Like Us" by Kendrick Lamar is a bold, aggressive track aimed at critics and rivals, asserting independence and dominance.',
             cover:'../assets/Home/notlikeus.jpeg',
-            file:'../assets/Songs/Not Like Us.mp3',
+            file:'../assets/Songs/OMG (Audio).mp3',
             lyric:
             `[Intro]
             Psst, I see dead people
@@ -3321,7 +3321,7 @@ document.addEventListener("DOMContentLoaded", function(){
             artist:'ROSE, Bruno Mars',
             description:'"APT (Apartment)" by Rosé and Bruno Mars is a soft and introspective ballad about loneliness, memories, and emotional distance within a familiar space.',
             cover:'../assets/Home/apt..jpeg',
-            file:'../assets/Songs/ROSÈ & Bruno Mars - APT. (Official Audio).mp3',
+            file:'../assets/Songs/Billie Eilish – WILDFLOWER.mp3',
             lyric:
             `[Intro]
             Chaeyoung-iga joahaneun
@@ -3428,7 +3428,7 @@ document.addEventListener("DOMContentLoaded", function(){
             artist:'Billie Eilish ',
             description:'"Birds of a Feather" by Billie Eilish is a haunting love song about wanting to be inseparable with someone—through life and even death.',
             cover:'../assets/Home/birdsoffeather.jpeg',
-            file:'../assets/Songs/Billie Eilish - BIRDS OF A FEATHER (Audio) (1).mp3',
+            file:'../assets/Songs/SZA - Kill Bill.mp3',
             lyric:
             `[Intro]
             (But I wanna stay)
@@ -3493,7 +3493,7 @@ document.addEventListener("DOMContentLoaded", function(){
             artist:'Sabrina Carpenter',
             description:'"Please Please Please" by Sabrina Carpenter is a pop plea for a partner to act right and not ruin the fragile, budding love between them.',
             cover:'../assets/Home/pleasepleaseplease.jpeg',
-            file:'../assets/Songs/Please Please Please.mp3',
+            file:'../assets/Songs/LANY - 13 (Official Audio).mp3',
             lyric:
             `[Verse 1]
             I know I have good judgment, I know I have good taste
@@ -3546,7 +3546,7 @@ document.addEventListener("DOMContentLoaded", function(){
             artist:'Bazzi',
             description:'"I.F.L.Y" by Bazzi is a dreamy, romantic song expressing deep affection and the euphoric feeling of being in love',
             cover:'../assets/Home/ifly.jpg',
-            file:'../assets/Songs/I.F.L.Y..mp3',
+            file:'../assets/Songs/Ariana Grande – intro (end of the world).mp3',
             lyric:
             `[Intro]
             This my baby
@@ -3617,11 +3617,11 @@ document.addEventListener("DOMContentLoaded", function(){
 
          {
             id: '48',
-            title:'My Evrything',
+            title:'My Everything',
             artist:'Ariana Grande',
             description:'"My Everything" by Ariana Grande is a heartfelt ballad mourning the loss of someone who meant the world, with emotional vulnerability.',
             cover:'../assets/Home/myeverything.jpeg',
-            file:'../assets/Songs/My Everything.mp3',
+            file:'../assets/Songs/Bruno Mars – Finesse.mp3',
             lyric:
             `[Verse 1]
             I cried enough tears to see my own reflection in them
@@ -3674,7 +3674,7 @@ document.addEventListener("DOMContentLoaded", function(){
             artist:'Jungkook',
             description:'"Seven" by Jungkook is a passionate and sensual track promising love and intimacy every day of the week.',
             cover:'../assets/Home/seven.jpeg',
-            file:'../assets/Songs/Seven (feat. Latto) - Clean Ver..mp3',
+            file:'../assets/Songs/(BTS) Jungkook - Still With You.mp3',
             lyric:
             `[Verse 1: Jung Kook]
             Weight of the world on your shoulders
@@ -3776,7 +3776,7 @@ document.addEventListener("DOMContentLoaded", function(){
             artist:'Jon Bellion',
             description:'"All Time Low" by Jon Bellion is a catchy yet vulnerable song about the emotional crash after losing someone who meant everything.',
             cover:'../assets/Home/alltimelow.jpeg',
-            file:'../assets/Songs/Jon Bellion - All Time Low (Audio).mp3',
+            file:'../assets/Songs/Billie Eilish – WILDFLOWER.mp3',
             lyric:
             `[Verse 1]
             I was the knight in shining armor in your movie
