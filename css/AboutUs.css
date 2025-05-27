@@ -289,7 +289,22 @@ ul li{
     }
     .journey-item{
         flex-direction: column;
+        
+    
     }
+
+    .journey-item h3 {
+        margin-right: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .journey-item h4{
+        margin-right: 0;
+        width: 100%;
+        text-align: center;
+    }
+
     .team-content{
         flex-direction: column;
         justify-content: center;
@@ -322,6 +337,19 @@ ul li{
     .journey-item{
         flex-direction: column;
     }
+
+    .journey-item h3 {
+        margin-right: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .journey-item h4{
+        margin-right: 0;
+        width: 100%;
+        text-align: center;
+    }
+
     .team-content{
         flex-direction: column;
         justify-content: center;

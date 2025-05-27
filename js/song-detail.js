@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function(){
             id: '1',
             title: 'FE!N',
             artist: 'Travis Scott',
-            description: 'FE!N” is a bold, immersive album where Travis Scott blends futuristic trap with introspective themes and experimental sounds.',
+            description: '"FE!N” is a bold, immersive album where Travis Scott blends futuristic trap with introspective themes and experimental sounds.',
             cover: '../assets/Collection/Pop/travis scott - UTOPIA.jpeg',
             file: '../assets/Songs/Travis Scott Ft. Playboi Carti & Sheck Wes – FEIN.mp3',
             lyric: `[Intro: Travis Scott & Sheck Wes]
@@ -243,7 +243,7 @@ document.addEventListener("DOMContentLoaded", function(){
             id:'4',
             title: 'Still WIth You',
             artist: 'Jungkook',
-            description: 'A nostalgic track reminiscing past memories through voicemails.',
+            description: '“Still With You” by Jungkook is a gentle, emotional ballad about longing and unwavering love.',
             cover: '../assets/Collection/K-Pop/jung kook - still with you.jpeg',
             file: '../assets/Songs/(BTS) Jungkook - Still With You.mp3',
             lyric: `[Intro]
@@ -312,7 +312,7 @@ document.addEventListener("DOMContentLoaded", function(){
             id:'5',
             title: 'Tempo',
             artist: 'EXO',
-            description: 'A bold, rhythmic track about not letting anyone mess with their loves rhythm.',
+            description: '"Tempo" A bold, rhythmic track about not letting anyone mess with their loves rhythm.',
             cover: '../assets/Collection/K-Pop/eco - tempo.jpeg',
             file: '../assets/Songs/EXO - Tempo.MP3',
             lyric: `[Intro: Chen, Baekhyun, Kai]
@@ -440,7 +440,7 @@ document.addEventListener("DOMContentLoaded", function(){
             id:'6',
             title: 'Kill Bill',
             artist: 'SZA',
-            description: 'A bold, rhythmic track about not letting anyone mess with their loves rhythm.',
+            description: '“Kill Bill” by SZA is a dark, catchy track about heartbreak, jealousy, and twisted revenge fantasies.',
             cover: '../assets/Collection/R&B/sza - low.jpg',
             file: '../assets/Songs/SZA - Kill Bill.mp3',
             lyric: `[Verse 1]
@@ -505,7 +505,7 @@ document.addEventListener("DOMContentLoaded", function(){
             id:'7',
             title: 'Creepin\'',
             artist: 'Metroboomin',
-            description: 'A sharp, catchy tune about unreciprocated feelings and intoxicated confessions.',
+            description: '"Creepin\'"A sharp, catchy tune about unreciprocated feelings and intoxicated confessions.',
             cover: '../assets/Collection/R&B/metroboomin - creepin.jpeg',
             file: '../assets/Songs/Metro Boomin - Creepin.mp3',
             lyric: `[Intro]
@@ -618,7 +618,7 @@ document.addEventListener("DOMContentLoaded", function(){
             id:'9',
             title: 'PUSH 2 START',
             artist: 'tyla',
-            description: 'an energetic blend of amapiano, pop, and R&B, using car metaphors to explore love and attraction.',
+            description: '"PUSH 2 START" is an energetic blend of amapiano, pop, and R&B, using car metaphors to explore love and attraction.',
             cover: '../assets/Collection/R&B/tyla - pish 2 star.jpeg',
             file: '../assets/Songs/Tyla – PUSH 2 START.mp3',
             lyric: `[Intro]
@@ -691,7 +691,7 @@ document.addEventListener("DOMContentLoaded", function(){
             id:'10',
             title: 'Finesse',
             artist: 'Bruno Mars',
-            description: 'a fun, funky track celebrating confidence and style with a retro 90s vibe.',
+            description: '"Finesse" a fun, funky track celebrating confidence and style with a retro 90s vibe.',
             cover: '../assets/Collection/R&B/finnese.jpeg',
             file: '../assets/Songs/Bruno Mars – Finesse.mp3',
             lyric: `[Intro]
@@ -1468,6 +1468,7 @@ document.addEventListener("DOMContentLoaded", function(){
                     I think I know, oh`
                 
         },
+
         {
             id: '20',
             title:'We Don\'t Talk Anymore',
@@ -1475,7 +1476,8 @@ document.addEventListener("DOMContentLoaded", function(){
             description:'"We Don’t Talk Anymore" by Charlie Puth is a melancholic duet about drifting apart from someone you once loved, filled with regret and longing.',
             cover:'../assets/Home/charlie.jpeg',
             file:'../assets/Songs/Charlie Puth - We Dont Talk Anymore (feat. Selena Gomez).mp3',
-            lyrics:`[Chorus: Charlie Puth]
+            lyric:
+            `[Chorus: Charlie Puth]
             We don't talk anymore, we don't talk anymore
             We don't talk anymore like we used to do
             We don't love anymore
