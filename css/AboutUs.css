@@ -231,7 +231,7 @@ ul li{
     gap: 5%;
     justify-content: center;
 }
-.team-card img{
+.team-card img{ 
     width: 80%;
     height: 70%;
     object-fit: cover;
@@ -305,6 +305,11 @@ ul li{
         text-align: center;
     }
 
+    .journey-item p {
+        text-align: center;
+        margin-top: 10px;
+    }
+
     .team-content{
         flex-direction: column;
         justify-content: center;
@@ -348,6 +353,11 @@ ul li{
         margin-right: 0;
         width: 100%;
         text-align: center;
+    }
+
+    .journey-item p {
+        text-align: center;
+        margin-top: 10px;
     }
 
     .team-content{

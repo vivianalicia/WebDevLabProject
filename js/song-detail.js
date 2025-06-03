@@ -1187,7 +1187,7 @@ document.addEventListener("DOMContentLoaded", function(){
             id: '17',
             title:'Power Trip',
             artist:'J.Cole',
-            description:'According to Cole himself the song has a double meaning, with the song not only about his love for a girl, but his love for hip-hop and how it’s got him up all night trying to create chart topping love songs.',
+            description:'"Power Trip" has a double meaning, with the song not only about his love for a girl, but his love for hip-hop and how it’s got him up all night trying to create chart topping love songs.',
             cover:'../assets/Home/jcole.jpeg',
             file:'../assets/Songs/EXO - Tempo.MP3',
             lyric:
